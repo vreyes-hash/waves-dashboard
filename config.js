@@ -19,9 +19,9 @@ const CONFIG = {
   },
 
   odoo: {
-    url:      'https://TU_INSTANCIA.odoo.com',
-    database: 'NOMBRE_BASE_DE_DATOS',
-    apiKey:   'PEGAR_API_KEY_AQUI',
+    url:      'https://wavesinmovement.adhoc.ar/odoo/email-marketing',
+    database: 'wavesinmovement',
+    apiKey:   'REGENERAR_API_KEY',
   },
 
   ga4: {
@@ -30,8 +30,8 @@ const CONFIG = {
     serviceAccountKey: {
       "type": "service_account",
       "project_id": "psychic-bliss-400823",
-      "private_key_id": "f0ebfac8f93487acad1520ec2fffa6fe40b5e05d",
-      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0N1cSd0L/6TCD\nyI0ysDsAEUQV4FFDcsM2xUyVxeQcfXAdW7u2QBXPBo82RFfv1JsBsHGH3RIoST0C\nX37x/8Y4T3nKyTKTXEJShvjyk8FSnMPnntguoYwigN01hJhXF+yW/Huf5BWAPFhZ\n8OsX0DbRunJtZhkTagFmvfR1jgp8qi49+30q0DRq5Oqbnir91YsaohVa0O26780D\nUmo9sFSdX5u5s7TXwCIp67tWRF8lLifo5SXhGqThPO+a2lWm3TJQ3LGqISQjGYAW\nG4Wbhjie0wwUC5qyOuoNoWh/S3bPlGPNgvEvJcTCG6cIpczUi3nUeC1qD1Cnvtes\n6JGSWpOFAgMBAAECggEADjG3psmEROzEeJ9mA6KJcHFrspS8QdA7BkgsRor+Ha0B\nlMZiDAeTJX8HmPIcF6ngBZY0naCwv+yOJMQ0bEdwK4ToUQEKKJIhL9KCrsnVdbYe\n4KeMW8E3QjZydeHPhTiUrAsPNPeS0UqveMdhdOWI6SRCw/wWfdwhEnW5WJL19NM+\nsrk+C1scBe6/0+RR4NUN/y5pQ88mNfbcudxYQrvXm4UxM8NksFTrbGK8uOXZrC8w\nCjLq/OomtlrbfLYpK+t2qsUxpz2dW9Bcz113n9t75fAm0JJevRddb9Evh3hgVNrG\niHpY4Tcq3kxycq8fDqyQzLKEJYqDHIr6qRk+P9TTtwKBgQDkWrKuHOqsCjZFNc03\n9dhYUrvzG/2tR0f1J0PgDuylzM3sCTuk7HoRABlR2sniwolRBNJMpZa81022LC+o\nrYHIDMi/0z6gNRl+xWXF6GJGf+lujh7GHzT5jjQaMX1/LaVZo4r//sjkkvRo/8oH\nY7WAy5Lk/IEPsswUWhtUkbpg2wKBgQDKCLcC+8D6pnTyOKcgpp8NF/lrqNi5BPK9\nCMeOK9EQluI98icNLh9BNr3dvgoRSrzl9w/wIPeFppWbLAMiPsQ81XJ1qETbXE3r\nsF1SZK8x/HVPsIjOndikOGBaTFJHjSXyWqj2FEPXvPyrZJKEHBr131gm9PdjGaCd\nnGvy+oFbHwKBgB68SnJ+9+MiGL3mCPIwR+dTc3K8YL+S6Y+Ism0U9Ss3zrunXnzL\nS37ASagnz6aS0pKyGHAylYBjZlVPyzZj7CT1+4s+Lp63pu/WN+WUaq3ch5nWzTOT\nfbjdOAwSfza/+RKAnbPpIjcJxJXhX9rww7xLKkFh7ykiwq82lZkjaDejAoGAduU6\nDp9pqhhbqlB8ylJEN8hsGFd9cyTeVTDdf2V523FwI1RmdvM1oYM9qUk1U4fQMuV6\nk65S/GxUjsUP8w9NHR/gBC3Kl+1yTcm0odBu6dPQld0mJbHu1HX4/ir8IO+H7WA9\nHtQ+OLAXYiYFs4l2tEuD7SksjT1/sEFlpdCWX7ECgYBDHNNW8Z5the3OJcKPKWYc\n0mvMV2upSZbqz5+b4izyAMhqi6gTSFZFVBVrK10Aqrki08A5R5m2gE2AfbZR6+BF\ndX6Qq6ZgBK8WQG4w6iTmSrEL6aOPuQ+/dqCbT4YSNTp6t81gAJW0hXCZVOZGOH+I\nVDOyyH08ld23Ga5VwVdvxg==\n-----END PRIVATE KEY-----\n",
+      "private_key_id": "8bb45d67962252b4b396e242014c88a29bba289e",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDDdf++9K/b4BOD\nJWEyMiMzeQIua28PlyeNvDkNYqhHo/0ounk/us4m6+oVDhFjnWrcuSGFAemw8SHB\nt2SMTFGYG4x6hwO6i5bcTTIIdt+bk7iGVKE7XlonR38/S5rZsb7kaSZUwZTisw+1\nl3oHOn87trWQqhmPoUmRElAhV198m4F367SRPLDqnLVWhDrLL0AiuAY3LeaAtxG0\n06RC37mnSNUu0KeNqMGpzBordIHPd6ty73o9TwyCHKuk92gvBjlRW8UD7Z9NqIBu\nQWx7UJs9h6IQvWsKq9Khz9pjahgZTGdh5H1iGTqbvunUVpbIW0ouiKTatm77M8gG\niPIq7rhPAgMBAAECggEAFxE48m9BcIB8V7DfTKOQIJtPqkIcOZ8hbYpgwqH5sXgQ\nAMYpAwq9GOjPQlbbryw9F/lylEDf3yBGAezucoRF6N6aGz0N2pkYtRJt14Pilc4U\nK9OXB5ZLVhwLpLZRJbnis7rDvvhC5ZIzm2mvXrpaQ6YnaAA7GLFJ06jGniNdQyuI\n1TQvyndxBM4ZMGmCB+VObEYcQYXllWMbNrJxXXN1of/awNwWoD5G3t0u7zhtuH37\nuDRtwtJGU2rk2DViXzQfloqfxbozwekYwoOtBeLIKT0OQ2kTwunco30LWXcFNiCM\nYhzTcoFvZgehKWOJgITvzDHXKgXfaqnpsJRzQMKc0QKBgQDowgYbpMQDQxmUu9/S\nJcrSSpJaVzFSqhbF1sqUWgTSU4ryUa06Lk7NJ3heum1VNgj4vmzpZVKO8NZR2Pdr\nlFopZ47Ydm/TM4dilQi/hzjxYbloV0JXmEHy2/84RaUryclj/R96/EATrAojbjHP\nh5+d5Pwi2/FWDiylhtuI3ybXBwKBgQDW+o4PrxkMwEnghKnShylenx8nxvsNKNUr\nP8Q8YymONX666Vtys5S5dJx4AVE9tthmFdmKXrtYsbRoaYtexJTSiVTaGAMjRUBZ\n3sSDSPy68rmfBpGImKIt+XXNsOekz77zMoHPgJ5LPeWAbT91uk2H0ZZe2TCqiI+c\n7WKtzei6eQKBgAnvBe22GXt+KKBVaFcCr+ZLsnVSlVNO2Qv2f8zXDq+fSyXOYJNE\nGK7eyV9Zm4LwfG+JSQKpBV3+X1c86EpaGYL83XbVjy43W8bUT3xFHCQJJK2UU8uD\nPwVLaFgReNwmj4bJ7ccE7wMn64LZmBygUCqf9DbUpjcjAbrKx6HOzEyPAoGAYQpC\nvCOu7AmUj4ty2Px4GSU8vAje5EbNSrODEjs00+Oj7B1QUUts0/YmdykpEfGKZzJv\nuz0d1mCI7iTOa53TC+I/8h6qs+4bqTWcgSKeKolMbtNZOE6lzpjvq0Sym7vHFyJy\nZEdLrO0ovrsRzUOmoati9DeX9zKjmROy2n+7EQkCgYBAHIheaFU+qbsPlNNa5WiQ\n3IzL7lOhixc8Wz3Yn+ZRsb48cKRxhCRqNPADda4EUG/sRAQ5vvELAMAYsbCUGMTN\ncwAY+N8a/BuMFkqO5jfvx0NvPXw71UQCHXZ3k3gF4cVOpfqyMZRFbnz0HUNAaWbv\nkm4qoioEpaEBn8gPxCTGpQ==\n-----END PRIVATE KEY-----\n",
       "client_email": "waves-dashboard@psychic-bliss-400823.iam.gserviceaccount.com",
       "client_id": "115356507589660037954",
       "auth_uri": "https://accounts.google.com/o/oauth2/auth",
@@ -43,3 +43,4 @@ const CONFIG = {
   },
 
 };
+
